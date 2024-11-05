@@ -1,5 +1,17 @@
 // import Image from "next/image";
 
+import Link from "next/link";
+
 export default function Header() {
-  return <div>Header</div>;
+  return (
+    <header className="flex items-center justify-between">
+      <Link href="/" className="font-bold text-lg">
+        frontEndFury
+      </Link>
+      <nav className="flex gap-8 items-center">
+        <Link href="/courses">Courses</Link>
+        <Link href="/help">Help</Link>
+      </nav>
+    </header>
+  );
 }
