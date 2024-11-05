@@ -9,8 +9,12 @@ export default function Header() {
         frontEndFury
       </Link>
       <nav className="flex gap-8 items-center">
-        <Link href="/courses">Courses</Link>
-        <Link href="/help">Help</Link>
+        <Link href="/courses" className="underline hover:no-underline">
+          Courses
+        </Link>
+        <Link href="/help" className="underline hover:no-underline">
+          Help
+        </Link>
       </nav>
     </header>
   );
