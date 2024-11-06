@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex flex-col gap-2 sm:flex-row sm:gap-0 items-center justify-between">
       <Link href="/" className="font-bold text-lg flex items-center gap-2">
         <Image src="/fef-logo.webp" alt="frontEndFury" width={32} height={32} />
         <span className="bg-gradient-to-r from-yellow-200 to-orange-500 bg-clip-text text-transparent mt-1">
