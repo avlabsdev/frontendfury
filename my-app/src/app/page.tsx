@@ -1,24 +1,24 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="px-8 flex flex-col gap-8 overflow-hidden">
+    <div className="px-8 py-4 flex flex-col gap-8 overflow-hidden">
       <div className="bg-gradient-to-b from-yellow-200 to-orange-500 w-full px-16 py-32 rounded-xl flex flex-col gap-2 relative">
-        <Image
+        {/* <Image
           src="/curly-ribbon.png"
           alt="Curly ribbon"
-          width={128 * 5}
-          height={128 * 5}
-          className="absolute -top-48 -right-32 z-0"
+          width={128 * 6}
+          height={128 * 6}
+          className="absolute -top-56 -right-56 z-10"
         />
         <Image
           src="/confetti.png"
           alt="Golden confetti"
           width={128 * 5}
           height={128 * 5}
-          className="absolute -top-40 -right-32 z-0"
-        />
+          className="absolute -top-52 -right-32 z-0"
+        /> */}
         <h1 className="text-4xl font-black text-gray-950 relative">
           Welcome to the fury!
         </h1>
