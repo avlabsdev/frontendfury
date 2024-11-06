@@ -18,5 +18,5 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-  @apply flex flex-col gap-8 min-h-screen;
+  @apply flex flex-col gap-8 min-h-screen container mx-auto;
 }
