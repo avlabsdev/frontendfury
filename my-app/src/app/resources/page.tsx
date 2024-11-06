@@ -3,5 +3,5 @@
 // import Link from "next/link";
 
 export default function Resources() {
-  return <div>Resources</div>;
+  return <div className="container px-8">Resources</div>;
 }

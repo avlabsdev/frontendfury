@@ -3,5 +3,5 @@
 // import Link from "next/link";
 
 export default function Help() {
-  return <div>Help</div>;
+  return <div className="container px-8">Help</div>;
 }
