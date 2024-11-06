@@ -11,7 +11,7 @@ export default function Header() {
           frontEndFury
         </span>
       </Link>
-      <nav className="flex gap-8 items-center sm:border-none border-t-2 border-orange-900 w-full mx-auto py-4 justify-center sm:justify-end">
+      <nav className="flex gap-8 items-center sm:border-none border-t-2 border-orange-900 py-4 justify-center sm:justify-end">
         <Link
           href="/courses"
           className="sm:mt-3 hover:text-orange-500 font-bold"
