@@ -12,13 +12,13 @@ export default function Header() {
         </span>
       </Link>
       <nav className="flex gap-8 items-center">
-        <Link href="/courses" className="underline hover:no-underline">
+        <Link href="/courses" className="underline hover:no-underline mt-1">
           Courses
         </Link>
-        <Link href="/resources" className="underline hover:no-underline">
+        <Link href="/resources" className="underline hover:no-underline mt-1">
           Resources
         </Link>
-        <Link href="/help" className="underline hover:no-underline">
+        <Link href="/help" className="underline hover:no-underline mt-1">
           Help
         </Link>
       </nav>
