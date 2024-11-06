@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="flex mt-auto justify-between gap-4 px-8">
+    <footer className="flex mt-auto justify-between gap-4 p-8">
       <p>&copy; 2024 AV Labs. All rights reserved.</p>
       <Link href="https://github.com/avlabsdev" target={"_blank"}>
         <svg
